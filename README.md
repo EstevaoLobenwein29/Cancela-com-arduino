@@ -1,4 +1,4 @@
-Projeto de Cancela Automática com Arduino
+# Projeto de Cancela Automática com Arduino
 
 Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **microservo** para criar uma cancela automática. O sensor ultrassônico mede a distância e, se um objeto for detectado a menos de 30 cm, o servo motor move a cancela para abrir (de 100° para 0°) e depois fecha (de 0° para 100°).
 
