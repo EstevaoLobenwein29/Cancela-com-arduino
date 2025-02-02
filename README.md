@@ -3,11 +3,11 @@
 Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **microservo** para criar uma cancela automática. O sensor ultrassônico mede a distância e, se um objeto for detectado a menos de 30 cm, o servo motor move a cancela para abrir (de 100° para 0°) e depois fecha (de 0° para 100°).
 
 ## Componentes Usados:
-- Arduino Uno
-- Sensor Ultrassônico HC-SR04
-- Microservo (SG90)
-- Protoboard
-- Fios macho-macho e macho-fêmea
+1 Arduino Uno
+1 Sensor Ultrassônico HC-SR04
+1 Microservo (SG90)
+1 Protoboard
+4 Fios macho-macho e macho-fêmea
 
 ## Como Funciona:
 1. O sensor ultrassônico mede a distância em relação a objetos à sua frente.
@@ -21,7 +21,12 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 
 ## Licença:
 Este projeto é de código aberto e pode ser utilizado de acordo com a licença MIT.
-
-## Instruções de Montagem
-
-Você pode conferir as instruções de montagem detalhadas [aqui](docs/montagem.md).
+## Dicas de montagem:
+Use cabos pretos ou azuis para GND e cabos vermelhos para Vcc;
+Mantenha seu projeto organizado;
+## Instruções de Montagem:
+Pegue seu arduíno uno e ligue 5V na parte positiva do protoboard(geralmente indicada na cor vermelha e com o símbolo +);
+Ligue o pino de tensão do motor e do sensor no protoboard;
+Aterre o sensor e o protoboard nos pinos de entrada "GND" do arduíno;
+No sensor você deve conectar os pinos "Echo" e "Triq" nos pinos de entrada digitais 7 e 6 do arduino, respectivamente;
+Agora coloque o pino de saída do motor no pino digital 9 do arduíno; insira o código do programa e se tudo correr bem, sua cancela estará pronta.
