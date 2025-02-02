@@ -30,3 +30,8 @@ Ligue o pino de tensão do motor e do sensor no protoboard;
 Aterre o sensor e o protoboard nos pinos de entrada "GND" do arduíno;
 No sensor você deve conectar os pinos "Echo" e "Triq" nos pinos de entrada digitais 7 e 6 do arduino, respectivamente;
 Agora coloque o pino de saída do motor no pino digital 9 do arduíno; insira o código do programa e se tudo correr bem, sua cancela estará pronta.
+## Ideia do projeto
+Eu tive essa ideia quando fui no shopping e logo pensei em como poderia fazer com o arduino;
+### Problemas
+No início tive alguns problemas com a montagem mas logo após estudar mais um pouco de cada parte do projeto consegui com facilidade fazer a montagem correta;
+Após isso eu tive uns problemas com o código que fazia com que a cancela não parasse de ativar e então perguntei ao meu professor e ele conseguiu me ajudar;
