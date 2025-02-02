@@ -21,3 +21,7 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 
 ## Licença:
 Este projeto é de código aberto e pode ser utilizado de acordo com a licença MIT.
+
+## Instruções de Montagem
+
+Você pode conferir as instruções de montagem detalhadas [aqui](docs/montagem.md).
