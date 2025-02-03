@@ -8,8 +8,8 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 - 1 Sensor Ultrassônico HC-SR04
 - 1 Microservo (SG90)
 - 1 Protoboard
-- 4 Fios macho-macho e macho-fêmea (de cada)
-
+- 4 Fios macho-macho 
+- 4 Fios macho-fêmea
 ## Como Funciona:
 1. O sensor ultrassônico mede a distância em relação a objetos à sua frente.
 2. Quando a distância for inferior a 10 cm, o microservo será acionado para abrir a cancela.
@@ -17,7 +17,8 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 
 ## Como Usar:
 1. Conecte os componentes conforme as [Instruções de Montagem](#Montagem).
-2. Faça o upload do código no Arduino.
+2. Faça o upload do [Código do programa](#Código-do-programa) no Arduino.
+
 3. Teste o sensor ultrassônico para ver a cancela abrir e fechar automaticamente.
 
 ## Licença:
@@ -27,7 +28,7 @@ Este projeto é de código aberto e pode ser utilizado de acordo com a licença 
 ![Montagem do Projeto](‎imagem_2025-02-02_202941771.png)
 
 ## Dicas de montagem:
-- Use cabos pretos ou azuis para GND e cabos vermelhos para Vcc.
+- Use cabos pretos ou azuis para GND e cabos vermelhos para VCC.
 - Mantenha seu projeto organizado.
 
 ## Instruções de Montagem:
