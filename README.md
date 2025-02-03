@@ -48,8 +48,8 @@ Este projeto é de código aberto e pode ser utilizado de acordo com a licença 
 
 Servo myservo;   
 
-int pos = 0;
-int cm = 0;
+int pos = 10;
+int cm = 10;
 
 long readUltrasonicDistance(int triggerPin, int echoPin) {
   pinMode(triggerPin, OUTPUT); 
@@ -76,7 +76,7 @@ void loop() {
     Serial.println("cm");
 
     // Movendo o servo de 100° para 0° mais rápido
-    for (pos = 100; pos >= 0; pos -= 2) { 
+    for (pos = 70; pos >= 0; pos -= 1) { 
       myservo.write(pos);             
       delay(10); // Movimento mais rápido                       
     }
@@ -84,7 +84,7 @@ void loop() {
     delay(1500); // Mantém 1,5 segundos em 0°
 
     // Movendo de volta de 0° para 100°
-    for (pos = 0; pos <= 100; pos += 2) { 
+    for (pos = 0; pos <= 70; pos += 1) { 
       myservo.write(pos);
       delay(10);                                      
     }
