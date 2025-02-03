@@ -8,8 +8,8 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 - 1 Sensor Ultrassônico HC-SR04
 - 1 Microservo (SG90)
 - 1 Protoboard
-- 4 Fios macho-macho e macho-fêmea (de cada)
-
+- 4 Fios macho-macho
+- 4 Fios macho-fêmea
 ## Como Funciona:
 1. O sensor ultrassônico mede a distância em relação a objetos à sua frente.
 2. Quando a distância for inferior a 10 cm, o microservo será acionado para abrir a cancela.
@@ -42,7 +42,6 @@ Este projeto é de código aberto e pode ser utilizado de acordo com a licença 
 
 # Código do Programa
 
-Aqui está o código para o seu projeto de cancela automática com Arduino:
 
 ```cpp
 #include <Servo.h>
