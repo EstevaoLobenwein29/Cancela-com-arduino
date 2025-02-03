@@ -17,7 +17,7 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 
 ## Como Usar:
 1. Conecte os componentes conforme as [Instruções de Montagem](#Montagem).
-2. Faça o upload do [Código do programa](/Código-do-programa) no Arduino.
+2. Faça o upload do [Código do programa](/Código do programa) no Arduino.
 
 3. Teste o sensor ultrassônico para ver a cancela abrir e fechar automaticamente.
 
