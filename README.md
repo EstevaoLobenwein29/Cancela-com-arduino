@@ -16,7 +16,7 @@ Este projeto utiliza um **Arduino Uno**, um **sensor ultrassônico** e um **micr
 3. O servo fica aberto por 1,5 segundos e depois fecha.
 
 ## Como Usar:
-1. Conecte os componentes conforme as [Instruções de Montagem](#instru%C3%A7%C3%B5es-de-montagem).
+1. Conecte os componentes conforme as [Instruções de Montagem](#Montagem).
 2. Faça o upload do código no Arduino.
 3. Teste o sensor ultrassônico para ver a cancela abrir e fechar automaticamente.
 
