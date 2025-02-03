@@ -39,7 +39,7 @@ Agora, conecte o pino de saída do motor ao pino digital 9 do Arduino;
 Insira o código do programa e, se tudo correr bem, sua cancela estará pronta.
 
 ## Ideia do Projeto
-Eu tive essa ideia quando estava no shopping e logo pensei em como poderia fazer uma cancela automática utilizando o Arduino.
+Eu tive essa ideia quando estava no shopping e logo pensei em como poderia fazer uma cancela automática utilizando o arduíno.
 
 ### Problemas
 No início tive alguns problemas com a montagem, mas após estudar mais sobre cada parte do projeto, consegui realizar a montagem correta com facilidade.  
